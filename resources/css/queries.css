@@ -1,0 +1,217 @@
+/*Big tablets to 1200px (widths smaller than 1140px row)*/
+
+@media only screen and (max-width: 1200px) {
+    .row,
+    .container {
+        padding: 0 10%;
+    }
+    .hero-text-box {
+        width: 100%;
+        padding: 0 10%;
+        font-size: 70%;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .footer-p {
+        text-align: center;
+    }
+
+}
+
+/*Small tablet to big tablet: from 768 to 1023px*/
+
+@media only screen and (max-width: 1023px) {
+
+    .bio-section img {
+        height: 200px;
+    }
+    .bio-section .long-copy {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-family: 'Nunito', 'Arial', sans-serif;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 15px;
+        text-align: justify;
+    }
+    .gigs-section {
+        height: 440px;
+    }
+    .tracks-section {
+        height: 1140px;
+    }
+
+
+    h2 {
+        font-size: 300%;
+        word-spacing: 2px;
+        text-align: center;
+        margin: 110px 0 10px 0;
+    }
+
+}
+
+/*Small phones to small tablets: from 481 to 767px*/
+
+@media only screen and (max-width: 767px) {
+
+
+    .row,
+    .container {
+        padding: 0 6%;
+    }
+    .hero-text-box {
+        width: 100%;
+        padding: 0 10%;
+        font-size: 50%;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav {
+        width: 100%;
+        margin: -19px auto 0 auto;
+        font-size: 100%;
+        line-height: 2;
+
+    }
+    .main-nav li {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+    .menu-block {
+        height: 0px;
+        padding: 0;
+    }
+    header {
+        display: none;
+    }
+    .sticky {
+        background-color: rgba(54, 54, 54, 0.91);
+        -webkit-box-shadow: 0 2px 2px rgba(126, 17, 17, 0.89);
+        box-shadow: 0 2px 2px #bc0505;
+        z-index: 999;
+        padding-top: 50px;
+    }
+    .sticky .main-nav {
+        margin-top: 30px;
+    }
+
+    .sticky .main-nav + li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 15px 0;
+    }
+    .sticky .main-nav li a:hover,
+    .sticky .main-nav li a:active {
+        border-bottom: transparent;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin: 15px 0 15px 0;
+    }
+    .sticky .mobile-nav-icon i {
+        color: #e0003c;
+        position: fixed;
+        right: 8%;
+        top: 2%;
+
+    }
+    .scroll-down svg {
+        display: none;
+    }
+    .bio-section .long-copy {
+        width: 100%;
+    }
+    .p-divide {
+        content: "";
+        display: block;
+        margin-top: 15px;
+    }
+    .gigs-section {
+        height: 445px;
+    }
+    .btn-full:link,
+    .btn-full:visited {
+        width: 45%;
+        height: 20px;
+        font-size: 125%;
+        padding-bottom: 45px;
+    }
+    .tracks-section {
+        height: 1100px;
+    }
+    .contact {
+        font-size: 70%;
+        font-family: 'Nunito', 'Arial', sans-serif;
+        font-weight: 800;
+        margin: 16px 0;
+    }
+
+}
+
+/*Small phones from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 0 5px;
+    }
+    .bio-section .long-copy {
+        text-align: inherit;
+        line-height: 1.2;
+        padding: 8px;
+    }
+    .p-divide {
+        content: "";
+        display: block;
+        margin-top: 15px;
+    }
+    .gigs-section {
+        height: 440px;
+    }
+    .btn-full:link,
+    .btn-full:visited {
+        width: 90%;
+        height: 20px;
+        font-size: 100%;
+        padding-bottom: 45px;
+    }
+   
+    .tracks-section {
+        height: 1140px;
+    }
+    .contact {
+        font-size: 80%;
+        font-family: 'Nunito', 'Arial', sans-serif;
+        font-weight: 800;
+    }
+    .footer-p {
+        font-size: 70.9%;
+        padding: 5px;
+        position: relative;
+        top: 5px;
+        float: left;
+    }
+
+}
