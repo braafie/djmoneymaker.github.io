@@ -372,15 +372,8 @@ footer {
     width: 45px;
     height: auto;
     margin: 0 auto;
-     -webkit-transition: scale .9s ease-in-out;
-    transition: scale .9s ease-in-out;
-}
-
-.social-media {
-    text-align: center;
-    margin: 0;
-    position: relative;
-    top: 10px;
+     -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .social-media img:hover {
@@ -388,7 +381,12 @@ footer {
     transform: scale(1.2);
     border-radius: 100%;
 }
-
+.social-media {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
 .social-media a {
     text-decoration: none;
     padding: 5px;
