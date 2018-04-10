@@ -372,6 +372,8 @@ footer {
     width: 45px;
     height: auto;
     margin: 0 auto;
+     -webkit-transition: scale .9s ease-in-out;
+    transition: scale .9s ease-in-out;
 }
 
 .social-media {
@@ -379,8 +381,6 @@ footer {
     margin: 0;
     position: relative;
     top: 10px;
-    -webkit-transition: scale .2s ease-in-out;
-    transition: scale .2s ease-in-out;
 }
 
 .social-media img:hover {
